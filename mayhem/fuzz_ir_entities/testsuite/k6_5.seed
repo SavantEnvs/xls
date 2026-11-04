@@ -1,0 +1,3 @@
+fn __test_module__main(x: bits[8] id=1) -> bits[8] {
+  ret x: bits[8] = param(name=x, id=1)
+}

@@ -1,0 +1,9 @@
+project: savantenvs/xls
+target: fuzz_dslx_parser
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_dslx_parser/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_dslx_parser
+    libfuzzer: true
+    timeout: 60

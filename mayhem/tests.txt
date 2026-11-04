@@ -1,0 +1,6 @@
+xls/ir/format_strings_test.cc
+xls/ir/number_parser_test.cc
+xls/ir/ir_parser_test.cc
+xls/ir/ir_parser_error_test.cc
+xls/dslx/frontend/scanner_test.cc
+xls/dslx/frontend/parser_test.cc

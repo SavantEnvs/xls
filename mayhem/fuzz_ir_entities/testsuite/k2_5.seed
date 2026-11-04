@@ -1,0 +1,3 @@
+block sub_block(in: bits[32]) {
+  in: bits[32] = input_port(name=in, id=1)
+}

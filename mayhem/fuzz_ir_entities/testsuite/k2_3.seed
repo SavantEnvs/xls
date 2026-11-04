@@ -1,0 +1,4 @@
+block child_block(in: bits[32], out: bits[32]) {
+  in: bits[32] = input_port(name=in)
+  out: () = output_port(in, name=out)
+}

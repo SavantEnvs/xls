@@ -1,0 +1,9 @@
+project: savantenvs/xls
+target: fuzz_ir_value
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_ir_value/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_ir_value
+    libfuzzer: true
+    timeout: 60
