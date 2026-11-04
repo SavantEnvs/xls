@@ -1,0 +1,4 @@
+block sub_block(out: bits[32]) {
+  zero: bits[32] = literal(value=0, id=1)
+  out: () = output_port(zero, name=out, id=2)
+}

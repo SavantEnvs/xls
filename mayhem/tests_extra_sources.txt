@@ -1,0 +1,8 @@
+xls/dslx/frontend/builtin_stubs_utils.cc
+xls/dslx/command_line_utils.cc
+xls/dslx/error_printer.cc
+xls/dslx/virtualizable_file_system.cc
+xls/common/file/filesystem.cc
+xls/common/file/temp_file.cc
+xls/common/status/error_code_to_status.cc
+xls/common/strerror.cc

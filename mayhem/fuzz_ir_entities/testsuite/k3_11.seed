@@ -1,0 +1,1 @@
+chan ch_inp(bits[32], id=0, kind=streaming, ops=receive_only)

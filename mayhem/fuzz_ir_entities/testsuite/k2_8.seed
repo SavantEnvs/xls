@@ -1,0 +1,4 @@
+block passthrough(a: bits[32], out: bits[32]) {
+  a: bits[32] = input_port(name=a)
+  out: () = output_port(a, name=out)
+}

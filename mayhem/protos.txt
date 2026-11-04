@@ -1,0 +1,11 @@
+xls/codegen/module_signature.proto
+xls/dslx/frontend/pos.proto
+xls/dslx/status_payload.proto
+xls/dslx/type_system/type_info.proto
+xls/ir/channel.proto
+xls/ir/foreign_function_data.proto
+xls/ir/op.proto
+xls/ir/transform_metrics.proto
+xls/ir/xls_ir_interface.proto
+xls/ir/xls_type.proto
+xls/ir/xls_value.proto

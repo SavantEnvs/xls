@@ -1,0 +1,6 @@
+block sub_block(a: bits[32], b: bits[32], x: bits[32], y: bits[32]) {
+  a: bits[32] = input_port(name=a, id=1)
+  b: bits[32] = input_port(name=b, id=2)
+  x: () = output_port(a, name=x, id=3)
+  y: () = output_port(b, name=y, id=4)
+}
